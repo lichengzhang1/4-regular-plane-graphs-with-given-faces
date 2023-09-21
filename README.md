@@ -3,9 +3,9 @@ For detailed information on the number of 4-regular plane graphs on n(<=60) vert
 
 ```
 cc -o quad_restrict -O '-DPLUGIN="quad_restrict.c"' -DALLTOGETHER plantri.c
-./quad_restrict -q -F3F4 -d 26 
-./quad_restrict -q -F3F4 -d 27
-./quad_restrict -q -F3F4 -d 29
+./quad_restrict -q -F3F4  26 >quad_24_F3F4.plc
+./quad_restrict -q -F3F4  27 >quad_25_F3F4.plc
+./quad_restrict -q -F3F4  29 >quad_27_F3F4.plc
 ```
 
 
