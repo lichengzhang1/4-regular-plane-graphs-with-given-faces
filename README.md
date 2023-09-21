@@ -8,6 +8,33 @@ cc -o quad_restrict -O '-DPLUGIN="quad_restrict.c"' -DALLTOGETHER plantri.c
 ./quad_restrict -q -F3F4  29 >quad_27_F3F4.plc
 ```
 
+# How to read it. 
+1. add an option -g for graph6 format and using showg, for `example, ./quad_restrict -q -F3F4  27 -g`  but it will miss embedding information. 
+2. use mathematica
+
+```
+decode[data_] := 
+ Module[{d = data, head, vc, g},(*skip header if it exists*)
+  head = ToCharacterCode[">>planar_code le<<"];
+  If[Take[d, Min[Length[d], Length[head]]] === head, 
+   d = Drop[d, Length[head]];];
+  (*split data at zero separators*)d = Most /@ Split[d, #1 =!= 0 &];
+  First@Last@
+    Reap@While[Length[d] > 0, 
+      vc = d[[1, 
+        1]];(*vertex count*)(*get as many neighbour lists as the \
+vertex count*){g, d} = TakeDrop[d, vc];
+      (*drop vertex count from first neighbour list*)
+      g = MapAt[Rest, g, {1}];
+      (*build association for combinatorial embedding*)
+      Sow@AssociationThread[Range[vc], 
+        Reverse /@ g (*reverse from clockwise to counterclockwise*)]]]
+```
+This code should be due to Szabolcs Horvát. 
+
+
+
+
 
 
 https://oeis.org/search?q=4-regular+plane+graphs+&sort=&language=&go=Search
