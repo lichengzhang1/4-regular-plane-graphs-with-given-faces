@@ -34,7 +34,7 @@ This code should be due to Szabolcs Horvát.
 
 ```
 data = Import[
-   "~\\F3F4.plc", "Byte"];
+   "~\\quad_24_F3F4.plc", "Byte"];
 ```
 
 
