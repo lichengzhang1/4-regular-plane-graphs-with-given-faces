@@ -1,5 +1,17 @@
-# All 4-regular-planar graphs on 24 or 25 vertices with all faces 3-faces or 4-faces
-For detailed information on the number of 4-regular-plane-graphs-on n(<=60) vertices-with-all-faces-3-faces-or-4-faces, see the link below.
+# All 4-regular-planar graphs on 24, 25 and 27 vertices with all faces 3-faces or 4-faces
+For detailed information on the number of 4-regular-plane-graphs on n(<=60) vertices with all-faces-3-faces-or-4-faces, see the link below. We use CaGe to generate them. See https://github.com/CaGe-graph/CaGe. Or we choose two files in CaGe named `quad_restrict.c` and    `plantri.c`  to compile. 
+
+cc -o quad_restrict -O '-DPLUGIN="quad_restrict.c"' -DALLTOGETHER plantri.c
+
+
+
+
+./quad_restrict -q -F3F4 -d 27 -g
+
+./quad_restrict -q -F3F4 -d 27 -g
+
+
+
 
 https://oeis.org/search?q=4-regular+plane+graphs+&sort=&language=&go=Search
 
