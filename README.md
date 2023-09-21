@@ -14,7 +14,7 @@ https://oeis.org/search?q=4-regular+plane+graphs+&sort=&language=&go=Search
 
 A111361		The number of 4-regular plane graphs with all faces 3-gons or 4-gons.
 
-
+```
 n		a(n)
 2		0
 3		0
@@ -75,4 +75,4 @@ n		a(n)
 58		5233
 59		4063
 60		6234
-
+```
