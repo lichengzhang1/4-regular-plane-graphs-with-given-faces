@@ -120,7 +120,7 @@ G1=Graph[{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,
 ![image](https://github.com/lichengzhang1/4-regular-plane-graphs-with-given-faces/assets/82444903/71b3108f-4bde-4fa1-8327-bce5e67854d2)
 
 ```
-Findcomm[G2]
+Findcomm[G1]
 
 True.
 ```
