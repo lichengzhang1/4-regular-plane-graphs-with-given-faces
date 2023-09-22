@@ -98,6 +98,7 @@ vertex count*){g, d} = TakeDrop[d, vc];
 ```
 data = Import[
    "~\\quad_24_F3F4.plc", "Byte"];
+G = IGLayoutTutte@IGAdjacencyGraph[#] & /@ decode[data];
 ```
 
 
