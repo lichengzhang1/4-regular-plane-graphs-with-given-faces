@@ -76,6 +76,7 @@ Similary,
 2. use *Mathematica* (This code should be due to Szabolcs Horvát）
 
 ```
+Needs["IGraphM`"]
 decode[data_] := 
  Module[{d = data, head, vc, g},(*skip header if it exists*)
   head = ToCharacterCode[">>planar_code le<<"];
