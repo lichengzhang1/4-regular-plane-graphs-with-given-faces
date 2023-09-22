@@ -42,6 +42,7 @@ n		a(n)
 ```
 
 # How to generate them
+
 We use CaGe to generate them. See https://github.com/CaGe-graph/CaGe. If we don't want to use a Java-based frontend,  we can choose two files in CaGe named `quad_restrict.c` and   `plantri.c` to compile. 
 
 ```
@@ -58,13 +59,15 @@ We  will get 24-vertex (with 26 faces)  4-regular plane graphs with with all fac
 Similary:
 
 
-``./quad_restrict -q -F3F4  27 >quad_25_F3F4.plc
+``
+./quad_restrict -q -F3F4  27 >quad_25_F3F4.plc
 ./quad_restrict -q -F3F4  29 >quad_27_F3F4.plc
 ```
 
 
 
-# How to read it. 
+# How to read it.
+
 1. add an option -g for graph6 format and using showg, for `example, ./quad_restrict -q -F3F4  27 -g`  but it will miss embedding information. 
 2. use *Mathematica* (This code should be due to Szabolcs Horvát）
 
