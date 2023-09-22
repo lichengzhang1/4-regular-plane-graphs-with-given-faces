@@ -95,7 +95,11 @@ data = Import[
    "~\\quad_24_F3F4.plc", "Byte"];
 ```
 
-If there exist two triangles in graph $G$ that share a common vertex, return `False`; otherwise, return `True`.
+
+
+
+# Further...
+If there exist two triangle faces in graph $G$ that share a common vertex, return `False`; otherwise, return `True`.
 
 ```
 Findcomm[g_] :=
