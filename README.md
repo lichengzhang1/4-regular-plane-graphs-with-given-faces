@@ -99,7 +99,7 @@ data = Import[
 
 
 # Further...
-If there exist two triangle faces in a given graph that share a common vertex, return `False`; otherwise, return `True`.
+If there exist two triangle faces in a given plane graph that share a common vertex, return `False`; otherwise, return `True`.
 
 ```
 Findcomm[g_] :=
