@@ -43,7 +43,7 @@ n		a(n)
 
 # How to generate them
 
-We use CaGe to generate them. See https://github.com/CaGe-graph/CaGe. If we don't want to use a Java-based frontend,  we can choose two files in CaGe named `quad_restrict.c` and   `plantri.c` to compile.  We also  compile a binary file for Windows by use cygwin, mamed *quad_restrict.exe*. 
+We use CaGe to generate them. See https://github.com/CaGe-graph/CaGe. If we don't want to use a Java-based frontend,  we can choose two files in CaGe named `quad_restrict.c` and   `plantri.c` to compile.  We also  compile a binary file for Windows by use cygwin, named by *quad_restrict.exe*. 
 
 ```
 cc -o quad_restrict -O '-DPLUGIN="quad_restrict.c"' -DALLTOGETHER plantri.c
