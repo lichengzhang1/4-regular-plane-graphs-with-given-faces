@@ -50,8 +50,8 @@ cc -o quad_restrict -O '-DPLUGIN="quad_restrict.c"' -DALLTOGETHER plantri.c
 
 then for example,
 
+```
 ./quad_restrict -q -F3F4  26 >quad_24_F3F4.plc
-
 ```
 We  will get 24-vertex (with 26 faces)  4-regular plane graphs with with all faces 3-facesor 4-faces.
 
