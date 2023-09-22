@@ -54,7 +54,7 @@ then for example, use
 ```
 ./quad_restrict -q -F3F4  26 >quad_24_F3F4.plc
 ```
-to  generate 24-vertex (with 26 faces)  4-regular plane graphs with with all faces 3-facesor 4-faces.
+to  generate 24-vertex  4-regular plane graphs with with all faces 3-facesor 4-faces. Note that it has 26 faces, and in the program, we use option  `26`  since it use dual graphs.
 
 Similary,
 
