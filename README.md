@@ -56,6 +56,11 @@ then for example, use
 ```
 to  generate 24-vertex  4-regular plane graphs with with all faces 3-facesor 4-faces. Note that it has 26 faces, and in the program, we use option  `26`  since it use dual graphs.
 
+We also  compile a binary file for Windows by use cygwin, mamed *quad_restrict.exe*. 
+
+
+
+
 Similary,
 
 
