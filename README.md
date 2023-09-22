@@ -43,8 +43,7 @@ n		a(n)
 
 # How to generate them
 
-We use CaGe to generate them. See https://github.com/CaGe-graph/CaGe. If we don't want to use a Java-based frontend,  we can choose two files in CaGe named `quad_restrict.c` and   `plantri.c` to compile.  Note that we also  compile a binary file for Windows by use cygwin, named by *quad_restrict.exe*. 
-
+We use CaGe to generate them. See https://github.com/CaGe-graph/CaGe. If we don't want to use a Java-based frontend,  we can choose two files in CaGe named `quad_restrict.c` and   `plantri.c` to compile.  Note that we also  compile a binary file for Windows by use cygwin, named by *quad_restrict.exe*.  
 ```
 cc -o quad_restrict -O '-DPLUGIN="quad_restrict.c"' -DALLTOGETHER plantri.c
 ```
@@ -72,7 +71,7 @@ Similary,
 
 # How to read it
 
-1. add an option -g for graph6 format and using showg, for `example, ./quad_restrict -q -F3F4  27 -g`  but it will miss embedding information. 
+1. add an option -g for graph6 format and using [showg](https://users.cecs.anu.edu.au/~bdm/data/formats.html) , for `example, ./quad_restrict -q -F3F4  27 -g`  but it will miss embedding information. 
 2. use *Mathematica* (This code should be due to Szabolcs Horvát）
 
 ```
