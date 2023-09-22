@@ -110,7 +110,7 @@ If there exist two triangle faces in a given plane graph that share a common ver
 
 ```
 Findcomm[g_] :=
- Module[{AllF3}, AllF3 := Select[PlanarFaceList[g], Length[#] == 3 &];
+ Module[{AllF3}, AllF3 = Select[PlanarFaceList[g], Length[#] == 3 &];
    If[Length[
      Cases[AllF3, {___,
        SelectFirst[Tally[Join @@ AllF3], #[[2]] >= 2 &][[1]], ___}]] ==
