@@ -2,9 +2,8 @@
 For detailed information on the number of 4-regular plane graphs on n(<=60) vertices with all-faces-3-faces-or-4-faces, see 
 [A111361](https://oeis.org/A111361).
 
-*A111361		The number of 4-regular plane graphs with all faces 3-gons or 4-gons.*
-
 ```
+A111361		The number of 4-regular plane graphs with all faces 3-gons or 4-gons.
 n		a(n)
 2		0
 3		0
