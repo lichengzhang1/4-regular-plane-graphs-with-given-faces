@@ -43,7 +43,7 @@ n		a(n)
 
 # How to generate them
 
-We use CaGe to generate them. See https://github.com/CaGe-graph/CaGe. If we don't want to use a Java-based frontend,  we can choose two files in CaGe named `quad_restrict.c` and   `plantri.c` to compile. 
+We use CaGe to generate them. See https://github.com/CaGe-graph/CaGe. If we don't want to use a Java-based frontend,  we can choose two files in CaGe named `quad_restrict.c` and   `plantri.c` to compile.  We also  compile a binary file for Windows by use cygwin, mamed *quad_restrict.exe*. 
 
 ```
 cc -o quad_restrict -O '-DPLUGIN="quad_restrict.c"' -DALLTOGETHER plantri.c
@@ -56,7 +56,7 @@ then for example, use
 ```
 to  generate 24-vertex  4-regular plane graphs with with all faces 3-facesor 4-faces. Note that it has 26 faces, and in the program, we use option  `26`  since it use dual graphs.
 
-We also  compile a binary file for Windows by use cygwin, mamed *quad_restrict.exe*. 
+
 
 
 
