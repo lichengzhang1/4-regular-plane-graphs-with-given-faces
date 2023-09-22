@@ -56,8 +56,9 @@ then for example,
 We  will get 24-vertex (with 26 faces)  4-regular plane graphs with with all faces 3-facesor 4-faces.
 
 Similary:
-``
-./quad_restrict -q -F3F4  27 >quad_25_F3F4.plc
+
+
+``./quad_restrict -q -F3F4  27 >quad_25_F3F4.plc
 ./quad_restrict -q -F3F4  29 >quad_27_F3F4.plc
 ```
 
