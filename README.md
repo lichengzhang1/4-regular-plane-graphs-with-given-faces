@@ -65,7 +65,7 @@ Similary,
 ```
 
 
-# How to read it.
+# How to read it
 
 1. add an option -g for graph6 format and using showg, for `example, ./quad_restrict -q -F3F4  27 -g`  but it will miss embedding information. 
 2. use *Mathematica* (This code should be due to Szabolcs Horvát）
