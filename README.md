@@ -49,21 +49,20 @@ We use CaGe to generate them. See https://github.com/CaGe-graph/CaGe. If we don'
 cc -o quad_restrict -O '-DPLUGIN="quad_restrict.c"' -DALLTOGETHER plantri.c
 ```
 
-then for example,
+then for example, use
 
 ```
 ./quad_restrict -q -F3F4  26 >quad_24_F3F4.plc
 ```
-We  will get 24-vertex (with 26 faces)  4-regular plane graphs with with all faces 3-facesor 4-faces.
+to  generate 24-vertex (with 26 faces)  4-regular plane graphs with with all faces 3-facesor 4-faces.
 
-Similary:
+Similary,
 
 
-``
+```
 ./quad_restrict -q -F3F4  27 >quad_25_F3F4.plc
 ./quad_restrict -q -F3F4  29 >quad_27_F3F4.plc
 ```
-
 
 
 # How to read it.
