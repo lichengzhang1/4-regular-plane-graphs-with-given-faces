@@ -1,5 +1,5 @@
 # All 4-regular-plane graphs with given faces
-For detailed information on the number of 4-regular plane graphs on n(<=60) vertices with all faces 3-faces or-4-faces, see 
+For detailed information on the number of 4-regular plane graphs on $n (\le 60)$ vertices with all faces 3-faces or-4-faces, see 
 [A111361](https://oeis.org/A111361).
 
 ```
